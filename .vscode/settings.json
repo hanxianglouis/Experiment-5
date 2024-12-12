@@ -1,0 +1,13 @@
+{
+    "files.associations": {
+        "*.dbclient-js": "javascript",
+        "*.rmd": "markdown",
+        "istream": "cpp",
+        "iostream": "cpp",
+        "queue": "cpp",
+        "fstream": "cpp",
+        "vector": "cpp",
+        "map": "cpp",
+        "ostream": "cpp"
+    }
+}
