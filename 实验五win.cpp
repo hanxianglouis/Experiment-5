@@ -157,7 +157,7 @@ class graph{
                 for(int i=0;i<result.size();i++){
                     for(int j=0;j<assist.size();j++){
                         if(assist[j].aim==result[i].aim){
-                            assist[j].cost=10000;//如果已经找了，就设回10000，避免新的路径更短，理论上不可能，暂时害怕出错，先加上
+                            assist[j].cost=10000;//如果已经找了，就设回10000，否则前一次找到的那个永远是最短的，就会重复找这个
                         }
                     }
                 }
@@ -334,7 +334,7 @@ int main(){
             g.DFS(g.patents[0],visited);
             getchar();
             getchar();
-            system("cls");
+            system("clear");
             break;
         }
         case 2:
@@ -344,25 +344,25 @@ int main(){
             g.BFS(g.patents[0],visited);
             getchar();
             getchar();
-            system("cls");
+            system("clear");
             break;
         case 3:
             mst.show();
             getchar();
             getchar();
-            system("cls");
+            system("clear");
             break;
         case 4:
             g.min_path();
             getchar();
             getchar();
-            system("cls");
+            system("clear");
             break;
         case 5:
             g.topological_sorting();
             getchar();
             getchar();
-            system("cls");
+            system("clear");
             break;
         case 0:
             judge = 1;
