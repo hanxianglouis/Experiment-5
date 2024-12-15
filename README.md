@@ -1,6 +1,6 @@
 # 注意
 
-由于作者使用的是MacOS，所以默认版本适用于Mac系统，其中“实验四win.cpp"为Windows版本，区别仅在于将system("clear"); 改为system("cls");
+由于作者使用的是MacOS，所以默认版本适用于Mac系统，其中“实验五win.cpp"为Windows版本，区别仅在于将system("clear"); 改为system("cls");
 
 # 实验思路
 
