@@ -110,7 +110,7 @@ class graph{
         void BFS(patent* start, map<string,bool> &visited){
             queue<patent*> q;
             q.push(start);
-            visited[start->id]=false;
+            visited[start->id]=true;
             while(!q.empty()){
                 patent* nowpatent;
                 nowpatent=q.front();
